@@ -17,11 +17,9 @@ There is only one type of room and the booking is being made for a single person
 </ul>
 
 <h3>Installations</h3>
-Clone the repository using
->$git clone ...................................
-<br>
->cd ................................
-<br>
+Clone the repository using<br>
+>$git clone ...................................<br>
+>cd ................................<br>
 
 Install the dependencies using<br>
 >npm install -r requirements.txt <br>
