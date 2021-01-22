@@ -53,7 +53,7 @@ Verify the deployment by navigating to your server address in your preferred bro
     <p>Note:<i> A booking is made only if the requested room is available</i></p>
   </li><br>
   <li>
-    To check the availabe rooms in a certain date range make a GET request in the following format localhost:3000/checkAvailability/from-date/to-date  eg. localhost:3000/checkAvailability/2020-05-12/2020-12-25
+    To check the availabe rooms in a certain date range make a GET request in the following format localhost:3000/checkAvailability/from-date/to-date<br>eg. localhost:3000/checkAvailability/2020-05-12/2020-12-25
   </li>
 </ul>
 </body>
