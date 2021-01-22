@@ -15,7 +15,7 @@ There is only one type of room and the booking is being made for a single person
   <li>Backend - NodeJS, ExpressJS for API's</li>
   <li>Database - MongoDB</li>
 </ul>
-
+<hr>
 <h3>Installations</h3>
 
 Install node js and Postman <br>
@@ -47,12 +47,12 @@ Verify the deployment by navigating to your server address in your preferred bro
   <li>
     To see details of all the bookings make a GET request to <br>
     > http://localhost:3000/bookings/
-  </li>
+  </li><br>
   <li>
     To make a new booking make a POST request to <br>
     > http://localhost:3000/bookings/
     <br><p>Note:<i> A booking is made only if the requested room is available</i></p>
-  </li>
+  </li><br>
   <li>
     To scheck the availabe rooms in a certain date range make a GET request in the following format http://localhost:3000/checkAvailability/<from-date>/<to-date><br>
     > http://localhost:3000/checkAvailability/2020-05-12/2020-12-25
