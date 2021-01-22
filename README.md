@@ -29,6 +29,7 @@ Install the dependencies using<br>
 
 Connect to the database <br>
 >Connect to your own MongoDB by changing the url in .env file accordingly <br>
+
 Note: <i>For database MongoDB Atlas which is the global cloud database service was used</i><br>
 
 Start the server<br>
@@ -45,16 +46,16 @@ Verify the deployment by navigating to your server address in your preferred bro
 <ul>
   <li>
     To see details of all the bookings make a GET request to <br>
-    >http://localhost:3000/bookings/
+    > http://localhost:3000/bookings/
   </li>
   <li>
     To make a new booking make a POST request to <br>
-    >http://localhost:3000/bookings/
+    > http://localhost:3000/bookings/
     <br><small>Note:<i> A booking is made only if the requested room is available</i></small>
   </li>
   <li>
     To scheck the availabe rooms in a certain date range make a GET request in the following format http://localhost:3000/checkAvailability/<from-date>/<to-date><br>
-    >http://localhost:3000/checkAvailability/2020-05-12/2020-12-25
+    > http://localhost:3000/checkAvailability/2020-05-12/2020-12-25
   </li>
 </ul>
 <p> Mention about postman and mongoDB cloud </p>
