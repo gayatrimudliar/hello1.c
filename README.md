@@ -1,5 +1,5 @@
 <body>
-<h1 style="color:blue"> Hotel Rooms Booking System for hotel "YOUR HOME" </h1>
+<h1> Hotel Rooms Booking System for hotel "YOUR HOME" </h1>
 
 <h3>Introduction</h3>
 <p> APIs simple hotel booking system which equips the manager with the following functionalities</p>
@@ -38,6 +38,7 @@ Start the server<br>
 Verify the deployment by navigating to your server address in your preferred browser<br>
 >localhost:3000<br>
 
+<hr>
 <h3>Routes</h3>
 /booking <br>
 /checkAvailability <br>
@@ -46,16 +47,16 @@ Verify the deployment by navigating to your server address in your preferred bro
 <ul>
   <li>
     To see details of all the bookings make a GET request to <br>
-    > http://localhost:3000/bookings/
+    >localhost:3000/bookings/
   </li><br>
   <li>
     To make a new booking make a POST request to <br>
-    > http://localhost:3000/bookings/
+    >localhost:3000/bookings/
     <br><p>Note:<i> A booking is made only if the requested room is available</i></p>
   </li><br>
   <li>
     To scheck the availabe rooms in a certain date range make a GET request in the following format http://localhost:3000/checkAvailability/<from-date>/<to-date><br>
-    > http://localhost:3000/checkAvailability/2020-05-12/2020-12-25
+    >localhost:3000/checkAvailability/2020-05-12/2020-12-25
   </li>
 </ul>
 </body>
