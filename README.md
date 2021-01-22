@@ -1,3 +1,9 @@
+<head>
+  <style>
+    
+  </style>
+</head>
+<body>
 <h1 style="color:blue"> Hotel Rooms Booking System for hotel "YOUR HOME" </h1>
 
 <h3>Introduction</h3>
@@ -23,7 +29,7 @@ cd ................................
 <br>
 
 Install the dependencies using<br>
-npm install -r requirements.txt <br>
+>npm install -r requirements.txt <br>
 
 Connect to the database <br>
 Connect to your own MongoDB by changing the url in .env file accordingly <br>
@@ -39,3 +45,4 @@ localhost:3000<br>
 /checkAvailability <br>
 
 <p> Mention about postman and mongoDB cloud </p>
+</body>
