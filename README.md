@@ -46,17 +46,14 @@ Verify the deployment by navigating to your server address in your preferred bro
 <h3>Example request</h3>
 <ul>
   <li>
-    To see details of all the bookings make a GET request to <br>
-    >localhost:3000/bookings/
+    To see details of all the bookings make a GET request to localhost:3000/bookings/
   </li><br>
   <li>
-    To make a new booking make a POST request to <br>
-    >localhost:3000/bookings/
-    <br><p>Note:<i> A booking is made only if the requested room is available</i></p>
+    To make a new booking make a POST request to localhost:3000/bookings/
+    <p>Note:<i> A booking is made only if the requested room is available</i></p>
   </li><br>
   <li>
-    To scheck the availabe rooms in a certain date range make a GET request in the following format http://localhost:3000/checkAvailability/<from-date>/<to-date><br>
-    >localhost:3000/checkAvailability/2020-05-12/2020-12-25
+    To scheck the availabe rooms in a certain date range make a GET request in the following format http://localhost:3000/checkAvailability/<from-date>/<to-date>  eg. localhost:3000/checkAvailability/2020-05-12/2020-12-25
   </li>
 </ul>
 </body>
