@@ -18,22 +18,22 @@ There is only one type of room and the booking is being made for a single person
 
 <h3>Installations</h3>
 Clone the repository using
-$git clone ...................................
+>$git clone ...................................
 <br>
-cd ................................
+>cd ................................
 <br>
 
 Install the dependencies using<br>
 >npm install -r requirements.txt <br>
 
 Connect to the database <br>
-Connect to your own MongoDB by changing the url in .env file accordingly <br>
+>Connect to your own MongoDB by changing the url in .env file accordingly <br>
 
 Start the server<br>
-npm start<br>
+>npm start<br>
 
 Verify the deployment by navigating to your server address in your preferred browser<br>
-localhost:3000<br>
+>localhost:3000<br>
 
 <h3>Routes</h3>
 /booking <br>
