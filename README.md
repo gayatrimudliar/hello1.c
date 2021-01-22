@@ -48,7 +48,7 @@ Verify the deployment by navigating to your server address in your preferred bro
     To make a new booking<br>
     Make a POST request to
     >http://localhost:3000/bookings/
-    <br><i>Note: A booking is made only if the requested room is available</i>
+    <br>Note:<i> A booking is made only if the requested room is available</i>
   </li>
   <li>
     To scheck the availabe rooms in a certain date range<br>
