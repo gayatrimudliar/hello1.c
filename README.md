@@ -1,8 +1,3 @@
-<head>
-  <style>
-    
-  </style>
-</head>
 <body>
 <h1 style="color:blue"> Hotel Rooms Booking System for hotel "YOUR HOME" </h1>
 
